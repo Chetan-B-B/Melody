@@ -11,6 +11,12 @@ module.exports = {
         footer: "200px minmax(900px, 1fr) 100px",
         // Complex site-specific column configuration
       },
+      gridTemplateRows: {
+        // usage:grid-rows-custom ;the following css will apply.grid-rows this is like a general one in the documentaion
+        custom: `4rem
+         auto`,
+        layout: "200px minmax(900px, 1fr) 100px",
+      },
     },
   },
   plugins: [],

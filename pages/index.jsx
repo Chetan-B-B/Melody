@@ -6,10 +6,10 @@ import TopNavBar from "../components/TopNavBar/TopNavBar";
 //##191414-->black
 const index = () => {
   return (
-    <div className="grid grid-cols-custom ">
-      <AsideNavBar />
-      <TopNavBar />
-      <Main />
+    <div className="grid grid-cols-custom grid-rows-custom ">
+      <AsideNavBar className=" " />
+      <TopNavBar className="" />
+      <Main className="" />
     </div>
   );
 };

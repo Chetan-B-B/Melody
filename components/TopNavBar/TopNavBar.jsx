@@ -1,5 +1,5 @@
 import Image from "next/image";
-import userImage from "../../public/user.jpg";
+import userImage from "../../public/chetan.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 const TopNavBar = () => {
@@ -16,7 +16,7 @@ const TopNavBar = () => {
       <div className="flex items-center relative">
         <Image
           src={userImage}
-          className="rounded-full clip-path: circle(50% at 50% 50%);"
+          className="rounded-full  mx-auto"
           width={50}
           height={50}
         ></Image>

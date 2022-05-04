@@ -8,7 +8,7 @@ import Customize from "./Customize";
 
 const AsideNavBar = () => {
   return (
-    <div className="h-screen w-48 bg-slate-50">
+    <div className="h-screen  row-span-2 w-48 bg-slate-50">
       <div className={"text-center  flex items-center justify-center  p-5 "}>
         <Image src={logo2} alt="logo" width={30} height={30}></Image>
 
