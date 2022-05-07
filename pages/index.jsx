@@ -7,9 +7,9 @@ import TopNavBar from "../components/TopNavBar/TopNavBar";
 const index = () => {
   return (
     <div className="grid grid-cols-custom grid-rows-custom ">
-      <AsideNavBar className=" " />
-      <TopNavBar className="" />
-      <Main className="" />
+      <AsideNavBar />
+      <TopNavBar />
+      <Main />
     </div>
   );
 };

@@ -1,8 +1,12 @@
 import React from "react";
+import Carasoul from "../Carasoul/Carasoul";
 
 const Main = () => {
   return (
-    <div className="bg-gradient-to-r from-indigo-500 col-start-2">HEllo</div>
+    <div className="col-start-2 mt-2">
+      <hr />
+      <Carasoul />
+    </div>
   );
 };
 
